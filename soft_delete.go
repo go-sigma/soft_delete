@@ -10,7 +10,7 @@ import (
 	"gorm.io/gorm/schema"
 )
 
-type DeletedAt uint
+type DeletedAt uint64
 
 var (
 	FlagDeleted = 1
